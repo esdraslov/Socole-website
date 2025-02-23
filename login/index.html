@@ -23,16 +23,23 @@
 			<div class="outline-two">
 				<progress value="0" max="100"></progress>
 				<h1>Login</h1>
-				<div>
+				<div class="first">
 					<label for="email">Email</label><br>
 					<input type="text" name="email" placeholder="john@example.com" class="email"><br>
-					<label for="password">Password</label><br>
 				</div>
-				<div>
+				<div class="occasional" hidden>
+					<h4>Email verification</h4>
+					We have sent you an email with a 6 digit long code, please enter the six digits in here<br>
+					<input type="number" name="code" max="999999" min="100000">
+				</div>
+				<div class="second" hidden>
+					<label for="password">Password</label><br>
 					<input type="password" name="password" placeholder="Passoword" class="pass">
 					<button class="showpass"></button>
 				</div>
-				<button>next</button>
+				<div class="next-div">
+					<button class="next">next</button>
+				</div>
 			</div>
 		</div>
 	</div>

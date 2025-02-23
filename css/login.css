@@ -28,3 +28,9 @@ body {
     padding: 10px;
     width: 100%;
 }
+
+.next {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
