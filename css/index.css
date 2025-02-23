@@ -1,0 +1,12 @@
+.left {
+	align-content: left;
+}
+
+.right {
+	align-content: right;
+}
+
+a.title {
+	font-style: none;
+	font-size: 40;
+}
