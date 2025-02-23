@@ -1,12 +1,14 @@
 .left {
-	align-content: left;
+	display: flex;
+	justify-content: left;
 }
 
 .right {
-	align-content: right;
+	display: flex;
+	justify-content: right;
 }
 
 a.title {
-	font-style: none;
-	font-size: 40;
+	text-decoration: none;
+	font-size: 20px;
 }
