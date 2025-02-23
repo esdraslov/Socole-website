@@ -18,15 +18,24 @@
 	<link rel="icon" sizes="32x32" href="../img/Favicon32.png">
 </head>
 <body>
-	<h1>Login</h1>
-	<label for="email">Email</label><br>
-	<input type="text" name="email" placeholder="john@example.com" class="email"><br>
-	<label for="password">Password</label><br>
-	<input type="password" name="password" placeholder="Passoword" class="pass">
-	<button class="showpass"></button><br><br>
-	<button class="login">Log in</button>
-	<button class="register">Register</button><br>
-	<a href="../forgot/">Forgot the password?</a>
+	<div class="wrapper">
+		<div class="outline-one">
+			<div class="outline-two">
+				<progress value="0" max="100"></progress>
+				<h1>Login</h1>
+				<div>
+					<label for="email">Email</label><br>
+					<input type="text" name="email" placeholder="john@example.com" class="email"><br>
+					<label for="password">Password</label><br>
+				</div>
+				<div>
+					<input type="password" name="password" placeholder="Passoword" class="pass">
+					<button class="showpass"></button>
+				</div>
+				<button>next</button>
+			</div>
+		</div>
+	</div>
 
 	<script type="text/javascript" src="../js/login.js"></script>
 </body>
