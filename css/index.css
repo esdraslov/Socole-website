@@ -1,14 +1,45 @@
 .left {
 	display: flex;
 	justify-content: left;
+	width: 50%;
 }
 
 .right {
 	display: flex;
 	justify-content: right;
+	width: 50%;
 }
 
 a.title {
 	text-decoration: none;
 	font-size: 20px;
+}
+
+.acc {
+	display: flex;
+	border-radius: 30px;
+	outline: black auto 1px;
+	align-content: center;
+	padding: 10px;
+	margin: 0;
+	cursor: pointer;
+	user-select: none;
+}
+
+#accname {
+	margin-right: 20px;
+	display: absolute;
+	top: 50%;
+	transform: translateY(5px);
+}
+
+#accimg {
+	outline: black auto 1px;
+	outline-offset: 9px;
+	border-radius: 10px;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
 }
